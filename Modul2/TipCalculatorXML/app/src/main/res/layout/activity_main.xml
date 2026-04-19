@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate Tip"
+            android:textSize="20sp"
+            android:textColor="#49454F"
+            android:layout_marginBottom="20dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxBackgroundColor="#E9E0EB"
+            app:hintTextColor="#6750A4"
+            app:startIconDrawable="@drawable/baseline_money_24"
+            app:startIconTint="#49454F"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etBillAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bill Amount"
+                android:inputType="numberDecimal"
+                android:textColor="#1C1B1F"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            app:boxBackgroundColor="#E9E0EB"
+            app:hintTextColor="#6750A4"
+            app:startIconDrawable="@drawable/baseline_percent_24"
+            app:startIconTint="#49454F">
+
+            <AutoCompleteTextView
+                android:id="@+id/spinnerTipPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tip Percentage"
+                android:inputType="none"
+                android:text="15%"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Round up tip?"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:textColor="#1C1B1F" />
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:id="@+id/switchRoundUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                app:thumbTint="@android:color/white" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvTipAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tip Amount: $0.00"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#49454F" />
+
+    </LinearLayout>
+</ScrollView>

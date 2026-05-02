@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.SongPediaXML" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.SongPediaXML" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#3E2723</item>
+        <item name="android:statusBarColor">#8B6343</item>
+        <item name="colorSurface">#8B6343</item>
+    </style>
+</resources>

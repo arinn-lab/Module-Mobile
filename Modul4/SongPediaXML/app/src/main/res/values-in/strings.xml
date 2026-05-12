@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SongPedia</string>
+    <string name="home_title">SongPedia</string>
+    <string name="label_album">Album</string>
+    <string name="label_genre">Genre</string>
+    <string name="label_description">Deskripsi</string>
+    <string name="label_choose_language">Pilih Bahasa</string>
+    <string name="label_indonesia">Bahasa Indonesia</string>
+    <string name="label_english">English</string>
+    <string name="btn_spotify">Spotify</string>
+    <string name="btn_detail">Detail</string>
+    <string name="label_highlighted">Lagu Pilihan</string>
+    <string name="label_all_songs">Semua Lagu</string>
+</resources>

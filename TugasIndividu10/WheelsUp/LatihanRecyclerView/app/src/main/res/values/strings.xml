@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">LatihanRecyclerView</string>
-    <string name="btn_aksi">Aksi</string>
-    <string name="toast_switch_on">Switch hidup pada item %d</string>
-    <string name="toast_btn_aksi">Tombol telah ditekan untuk tombol %d</string>
-    <string name="toast_item_click">Item %d ditekan</string>
-</resources>

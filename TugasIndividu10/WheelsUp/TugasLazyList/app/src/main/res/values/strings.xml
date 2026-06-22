@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TugasLazyList</string>
+    <string name="btn_aksi">Aksi</string>
+    <string name="toast_item_click">Item telah ditekan untuk %d</string>
+    <string name="toast_switch_on">Switch hidup pada item %d</string>
+    <string name="toast_btn_aksi">Tombol telah ditekan untuk tombol %d</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014754178512",
+    "project_id": "wheelsup-5fc6b",
+    "storage_bucket": "wheelsup-5fc6b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014754178512:android:1b7738e0da00e4466cf5d5",
+        "android_client_info": {
+          "package_name": "com.example.wheelsup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB47o1FYMJLYyIeUqljE32G9a5t11OA5ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
